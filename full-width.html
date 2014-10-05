@@ -5,7 +5,7 @@
 	<meta name="keywords" content="Blog, wordpress, html, css, theme">
 	<meta name="author" content="Diamant Gjota">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Usama - Blog and Portfolio</title>
+	<title>Pinky - Blog Template</title>
 	<!-- Style -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
@@ -17,7 +17,7 @@
     <![endif]-->
     
 </head>
-<body>
+<body id="full-width">
 
     <!-- start Navigation -->
 	<nav class="navbar navbar-default" role="navigation">
@@ -39,9 +39,9 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li class="active"><a href="index.html">Right Sidebar</a></li>
+                <li><a href="index.html">Right Sidebar</a></li>
                 <li><a href="left-sidebar.html">Left Sidebar</a></li>
-                <li><a href="full-width.html">Full Width</a></li>
+                <li class="active"><a href="full-width.html">Full Width</a></li>
               </ul>
             </li>
             <li><a href="archive.html">Archive</a></li>
@@ -72,7 +72,7 @@
         	<div class="row">
             	
                 <!-- start blog-content -->
-                <div class="blog-content col-sm-8">
+                <div class="blog-content col-sm-12">
                 
                 	<!-- text article -->
                     <article id="article" class="standard-post">
@@ -213,180 +213,6 @@
                     
                 </div>
                 <!-- end blog-content -->
-                
-                <!-- start sidebar -->
-                <div class="sidebar col-sm-4">
-                	<!-- search -->
-                    <div class="widget search">
-                    	<div class="input-group">
-                        	<input type="text" class="form-control">
-                          	<span class="input-group-btn">
-                            	<button class="btn btn-default" type="button">Search</button>
-                          	</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Author -->
-                    <div class="widget author">
-                    	<img src="images/lorans.png" alt="author image" />
-                        <h5>Laurentiu Cotet</h5>
-                        <p>	"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim</p>
-
-						<p>dipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima magni dolores eos qui ratione voluptatem sequi nesciunt.  ..."</p>
-                    </div>
-                    
-                    <!-- social networks -->
-                    <div class="widget social-networks">
-                    	<h4>Get in touch</h4>
-                        <div class="social">
-                    		<a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        </div>
-                        <div class="social">
-                        	<a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        </div>
-                        <div class="social">
-                        	<a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
-                        </div>
-                        <div class="social">
-                        	<a href="#" title="Google"><i class="fa fa-google-plus"></i></a>
-                        </div>
-                        <div class="social">
-                        	<a href="#" title="Youtube"><i class="fa fa-youtube"></i></a>
-                        </div>
-                        <div class="social">
-                        	<a href="#" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                        </div>
-                        <div class="social">
-                        	<a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                        <div class="social">
-                        	<a href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a>
-                        </div>
-                        <div class="social">
-                        	<a href="#" title="Flickr"><i class="fa fa-flickr"></i></a>
-                        </div>
-                    </div>
-                    
-                    <!-- posts -->
-                    <div class="widget posts">
-                    	<!-- Nav tabs -->
-                        <ul class="nav nav-tabs">
-                          <li class="active"><a href="#recent" data-toggle="tab">Recent posts</a></li>
-                          <li><a href="#popular" data-toggle="tab">Popular posts</a></li>
-                        </ul>
-                        
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                          <div class="tab-pane active" id="recent">
-                          	<div class="article">
-                                <a href="#">
-                                	<img src="images/lorans.png" alt="article image" />
-                                </a>
-                                <div class="title"><h4><a href="#">Recent post title #1</a></h4></div>
-                                <p>Ssuscipit porta urna. Susendisse ignissim   ante, eu  fringilla. Aenean cipit port [...]</p>
-                                <div class="data-time">15 min ago</div>
-                          	</div>
-                            <div class="article">
-                            	<a href="#">
-                                	<img src="images/profile-picture.png" alt="article image" />
-                                </a>
-                                <div class="title"><h4><a href="#">Recent post title #2</a></h4></div>
-                                <p>Ssuscipit porta urna. Susendisse ignissim   ante, eu  fringilla. Aenean cipit port [...]</p>
-                                <div class="data-time">15 min ago</div>
-                          	</div>
-                            <div class="article">
-                                <a href="#">
-                                	<img src="images/lorans.png" alt="article image" />
-                                </a>
-                                <div class="title"><h4><a href="#">Recent post title #3</a></h4></div>
-                                <p>Ssuscipit porta urna. Susendisse ignissim   ante, eu  fringilla. Aenean cipit port [...]</p>
-                                <div class="data-time">15 min ago</div>
-                          	</div>
-                          </div>
-                          <div class="tab-pane" id="popular">
-                          	<div class="article">
-                                <a href="#">
-                                	<img src="images/profile-picture.png" alt="article image" />
-                                </a>
-                                <div class="title"><h4><a href="#">Popular post title #1</a></h4></div>
-                                <p>Ssuscipit porta urna. Susendisse ignissim   ante, eu  fringilla. Aenean cipit port [...]</p>
-                                <div class="data-time">15 min ago</div>
-                          	</div>
-                            <div class="article">
-                                <a href="#">
-                                	<img src="images/lorans.png" alt="article image" />
-                                </a>
-                                <div class="title"><h4><a href="#">Popular post title #2</a></h4></div>
-                                <p>Ssuscipit porta urna. Susendisse ignissim   ante, eu  fringilla. Aenean cipit port [...]</p>
-                                <div class="data-time">15 min ago</div>
-                          	</div>
-                            <div class="article">
-                                <a href="#">
-                                	<img src="images/profile-picture.png" alt="article image" />
-                                </a>
-                                <div class="title"><h4><a href="#">Popular post title #3</a></h4></div>
-                                <p>Ssuscipit porta urna. Susendisse ignissim   ante, eu  fringilla. Aenean cipit port [...]</p>
-                                <div class="data-time">15 min ago</div>
-                          	</div>
-                          </div>
-                        </div>
-                    </div>
-                    
-                    <!-- recent comments -->
-                    <div class="widget recent-comments">
-                    	<h4>Recent Comments</h4>
-                        <div class="comment">
-                        	<img src="images/lorans.png" alt="comment" />
-                            <div class="content-comment">
-                            	<p><a href="#"><b>Lorans:</b></a> Ssuscipit porta urna. Susendisse ignissim   ante, eu  ullamcorper risus dapibus et. Phasellus lobortis vehicula fringilla. Aenean lorem libero, vestibulum id tortor tincidunt, pellentesque semper metus [<a href="#">...</a>]</p>
-                            </div>
-                        </div>
-                        <div class="comment">
-                        	<img src="images/profile-picture.png" alt="comment" />
-                            <div class="content-comment">
-                            	<p><a href="#"><b>Lorans:</b></a> Ssuscipit porta urna. Susendisse ignissim   ante, eu  ullamcorper risus dapibus et [<a href="#">...</a>]</p>
-                            </div>
-                        </div>
-                        <div class="comment">
-                        	<img src="images/lorans.png" alt="comment" />
-                            <div class="content-comment">
-                            	<p><a href="#"><b>Lorans:</b></a> Ssuscipit porta urna. Susendisse ignissim   ante, eu  ullamcorper risus dapibus et [<a href="#">...</a>]</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- tag -->
-                    <div class="widget tags">
-                    	<h4>Tags</h4>
-                    	<a href="#"><span class="tag">design</span></a>
-                        <a href="#"><span class="tag">web</span></a>
-                        <a href="#"><span class="tag">blog</span></a>
-                        <a href="#"><span class="tag">photos</span></a>
-                        <a href="#"><span class="tag">home</span></a>
-                        <a href="#"><span class="tag">pinky</span></a>
-                        <a href="#"><span class="tag">tag</span></a>
-                    </div>
-                    
-                    <!-- instagram -->
-                    <div class="widget instagram">
-                    	<div class="header-nav">
-                    		<div class="slider-nav">
-                                <div class="prev pull-left"><img src="images/prev.png" alt="prev" /></div>
-                                <img src="images/instagram-logo.png" alt="instagram logo" />
-                                <div class="next pull-right"><img src="images/next.png" alt="next" /></div>
-                            </div>
-                        </div>    
-                    	<div id="instafeed"></div>
-                    </div>
-                    
-                    <!-- twitter -->
-                    <div class="widget twitter">
-                        <a class="twitter-timeline" href="https://twitter.com/diamondcreativ1" data-widget-id="460043914892689408">Tweets by @diamondcreativ1</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                    </div>
-                    
-                </div>
-                <!-- end sidebar -->
             </div>
         </div>
     </section>
@@ -411,14 +237,5 @@
     <script src="js/instafeed.min.js"></script>
     <script src="js/jquery.photoset-grid.min.js"></script>
     <script src="js/theme.js"></script>
-    <script src="//www.parsecdn.com/js/parse-1.3.0.min.js"></script>
-    <script>
-        Parse.initialize("b1rOKK76yZGGCbvuvnK5ZKff7aLRhTeY00b4mcFD", "Hhzzm6RG9cWF3oXz2HZfRp3WspMFOSr3Nj4oVzEV");
-        var TestObject = Parse.Object.extend("TestObject");
-        var testObject = new TestObject();
-        testObject.save({foo: "bar"}).then(function(object) {
-          alert("yay! it worked");
-        });
-    </script>
 </body>
 </html>

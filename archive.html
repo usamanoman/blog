@@ -5,7 +5,7 @@
 	<meta name="keywords" content="Blog, wordpress, html, css, theme">
 	<meta name="author" content="Diamant Gjota">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Usama - Blog and Portfolio</title>
+	<title>Pinky - Blog Template</title>
 	<!-- Style -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
@@ -17,7 +17,7 @@
     <![endif]-->
     
 </head>
-<body>
+<body id="archive">
 
     <!-- start Navigation -->
 	<nav class="navbar navbar-default" role="navigation">
@@ -39,12 +39,12 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li class="active"><a href="index.html">Right Sidebar</a></li>
+                <li><a href="index.html">Right Sidebar</a></li>
                 <li><a href="left-sidebar.html">Left Sidebar</a></li>
                 <li><a href="full-width.html">Full Width</a></li>
               </ul>
             </li>
-            <li><a href="archive.html">Archive</a></li>
+            <li class="active"><a href="archive.html">Archive</a></li>
             <li><a href="post.html">Post</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -74,142 +74,57 @@
                 <!-- start blog-content -->
                 <div class="blog-content col-sm-8">
                 
-                	<!-- text article -->
-                    <article id="article" class="standard-post">
-                        <table width="100%">
-                        	<tr>
-                            	<td class="date"><h3><div class="date-number">21</div> <div class="month">Oct</div></h3></td>
-                                <td class="title">
-                                	<h3>Standard Post - Lorem ipsum dolor sit amet</h3>
-                                	<div class="info">
-                                		<span class="author">Author</span>
-                                    	<span class="tag">Design</span>
-                                    	<span class="love">174</span>
-                                    	<span class="comments">21</span>
-                                	</div>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="content">
-                        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoididunt utpoidlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullacoabris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit iuptateelitsse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non prodent, suntinpa qui officia deserunt mollit anim id est laborum.At vero eos et accusamus et iusto odioignismos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provi [<a href="#">...</a>]</p>
-                            <a href="#" class="btn-pink pull-right">Read More</a>
-                        </div>
-                    </article>
+                	<!-- archive -->
+                    <div class="archive last-blog">
+                    	<h5>Last From Blog</h5>
+                        <ul>
+                        	<li><a href="#">Recent post#1</a></li>
+                            <li><a href="#">Recent post#2</a></li>
+                            <li><a href="#">Recent post#3</a></li>
+                            <li><a href="#">Recent post#4</a></li>
+                            <li><a href="#">Recent post#5</a></li>
+                        </ul>
+                    </div>
                     
+                    <div class="archive daily-archives">
+                    	<h5>Daily Archives</h5>
+                        <ul>
+                        	<li><a href="#">06 May 2014</a></li>
+                            <li><a href="#">04 May 2014</a></li>
+                            <li><a href="#">03 May 2014</a></li>
+                            <li><a href="#">02 May 2014</a></li>
+                            <li><a href="#">29 April 2014</a></li>
+                        </ul>
+                    </div>
                     
-                    <!-- image article -->
-                    <article id="article" class="standard-post-image">
-                        <table width="100%">
-                        	<tr>
-                            	<td class="date"><h3><div class="date-number">21</div> <div class="month">Oct</div></h3></td>
-                                <td class="title">
-                                	<h3>Standard Post - IMAGE - Lorem ipsum dolor sit amet</h3>
-                                	<div class="info">
-                                		<span class="author">Author</span>
-                                    	<span class="tag">Design</span>
-                                    	<span class="love">174</span>
-                                    	<span class="comments">21</span>
-                                	</div>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="image">
-                        	<img src="images/image_02.jpg" alt="image-post" />
-                        </div>
-                        <div class="content">
-                        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoididunt utpoidlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullacoabris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit iuptateelitsse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non prodent, suntinpa qui officia deserunt mollit anim id est laborum.At vero eos et accusamus et iusto odioignismos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provi [<a href="#">...</a>]</p>
-                            <a href="#" class="btn-pink pull-right">Read More</a>
-                        </div>
-                    </article>
+                    <div class="archive monthly-archives">
+                    	<h5>Monthly Archives</h5>
+                        <ul>
+                        	<li><a href="#">May</a></li>
+                            <li><a href="#">April</a></li>
+                            <li><a href="#">March</a></li>
+                            <li><a href="#">February</a></li>
+                            <li><a href="#">January</a></li>
+                        </ul>
+                    </div>
                     
-                    <!-- video article -->
-                    <article id="article" class="standard-post-video">
-                        <table width="100%">
-                        	<tr>
-                            	<td class="date"><h3><div class="date-number">21</div> <div class="month">Oct</div></h3></td>
-                                <td class="title">
-                                	<h3>Standard Post - VIDEO - Lorem ipsum dolor sit amet</h3>
-                                	<div class="info">
-                                		<span class="author">Author</span>
-                                    	<span class="tag">Design</span>
-                                    	<span class="love">174</span>
-                                    	<span class="comments">21</span>
-                                	</div>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="video-container">
-                			<iframe src="//player.vimeo.com/video/19475041" width="100%" height="436px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    	</div><!-- end video-container -->
-                        <div class="content">
-                        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoididunt utpoidlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullacoabris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit iuptateelitsse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non prodent, suntinpa qui officia deserunt mollit anim id est laborum.At vero eos et accusamus et iusto odioignismos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provi [<a href="#">...</a>]</p>
-                            <a href="#" class="btn-pink pull-right">See Video</a>
-                        </div>
-                    </article>
+                    <div class="archive yearly-archives">
+                    	<h5>Yearly archives</h5>
+                        <ul>
+                        	<li><a href="#">2014</a></li>
+                            <li><a href="#">2013</a></li>
+                        </ul>
+                    </div>
                     
-                    <!-- Gallery -->
-                    <article id="article" class="standard-post-gallery">
-                        <table width="100%">
-                        	<tr>
-                            	<td class="date"><h3><div class="date-number">21</div> <div class="month">Oct</div></h3></td>
-                                <td class="title">
-                                	<h3>Standard Post - GALLERY - Lorem ipsum dolor sit amet</h3>
-                                	<div class="info">
-                                		<span class="author">Author</span>
-                                    	<span class="tag">Design</span>
-                                    	<span class="love">174</span>
-                                    	<span class="comments">21</span>
-                                	</div>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="photoset-grid-custom" style="visibility: inherit;">
-                            <div class="photoset-grid-basic" data-layout="12">
-                                <img src="images/image_02.jpg" />
-                                <img src="images/image_01.jpg" />
-                                <img src="images/image_03.jpg" />
-                            </div>
-                        </div>
-                        <div class="content">
-                        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoididunt utpoidlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullacoabris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit iuptateelitsse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non prodent, suntinpa qui officia deserunt mollit anim id est laborum.At vero eos et accusamus et iusto odioignismos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provi [<a href="#">...</a>]</p>
-                            <a href="#" class="btn-pink pull-right">Read More</a>
-                        </div>
-                    </article>
-                    
-                    <article id="article" class="standard-post">
-                        <table width="100%">
-                        	<tr>
-                            	<td class="date"><h3><div class="date-number">21</div> <div class="month">Oct</div></h3></td>
-                                <td class="title">
-                                	<h3>Standard Post - AUDIO - Lorem ipsum dolor sit amet</h3>
-                                	<div class="info">
-                                		<span class="author">Author</span>
-                                    	<span class="tag">Design</span>
-                                    	<span class="love">174</span>
-                                    	<span class="comments">21</span>
-                                	</div>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="audio-container">
-                        	<iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/14511311&amp;auto_play=false" frameborder="0" allowtransparency="false" class="soundcloud_audio_player" width="500" height="300"></iframe>
-                        </div>
-                        <div class="content">
-                        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempoididunt utpoidlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullacoabris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit iuptateelitsse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non prodent, suntinpa qui officia deserunt mollit anim id est laborum.At vero eos et accusamus et iusto odioignismos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provi [<a href="#">...</a>]</p>
-                            <a href="#" class="btn-pink pull-right">Listen</a>
-                        </div>
-                    </article>
-                    
-                    <div class="pagination text-center">
-                         <ul class="pagination">
-                             <li><a href="#">&laquo;</a></li>
-                             <li class="active"><a href="#">1</a></li>
-                             <li><a href="#">2</a></li>
-                             <li><a href="#">3</a></li>
-                             <li><a href="#">4</a></li>
-                             <li><a href="#">&raquo;</a></li>
-                         </ul>
-                 	</div>
+                    <div class="archive categories-archives">
+                    	<h5>Categories Archives</h5>
+                        <ul>
+                        	<li><a href="#">Design</a></li>
+                            <li><a href="#">Web</a></li>
+                            <li><a href="#">Video</a></li>
+                            <li><a href="#">Audio</a></li>
+                        </ul>
+                    </div>
                     
                 </div>
                 <!-- end blog-content -->
@@ -411,14 +326,5 @@
     <script src="js/instafeed.min.js"></script>
     <script src="js/jquery.photoset-grid.min.js"></script>
     <script src="js/theme.js"></script>
-    <script src="//www.parsecdn.com/js/parse-1.3.0.min.js"></script>
-    <script>
-        Parse.initialize("b1rOKK76yZGGCbvuvnK5ZKff7aLRhTeY00b4mcFD", "Hhzzm6RG9cWF3oXz2HZfRp3WspMFOSr3Nj4oVzEV");
-        var TestObject = Parse.Object.extend("TestObject");
-        var testObject = new TestObject();
-        testObject.save({foo: "bar"}).then(function(object) {
-          alert("yay! it worked");
-        });
-    </script>
 </body>
 </html>
